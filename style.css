@@ -112,3 +112,19 @@ li {
         margin: 15px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .navbar a, .dropdown .dropbtn {
+        font-size: 14px;
+        padding: 12px;
+    }
+    .content {
+        padding: 15px;
+        margin: 0%;
+        margin-bottom: 15px;
+    }
+    .main{
+        margin: 0;
+    }
+}
+
