@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Portfolio</title>
+    <style>
+      /* Add CSS styles here */
+      #projects p {
+        line-height: 0.5; /* Adjust line height as per your preference */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#home">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          About
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#about-me">About Me</a>
+          <a href="#resume">Resume</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Projects
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#projects">Projects</a>
+          <a href="#opensource">Open Source</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Experience
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#work-experience">Work Experience</a>
+          <a href="#education">Education</a>
+        </div>
+      </div>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="main">
+      <h1>Software Engineer</h1>
+      <!-- <div id="home" class="content"> -->
+      <!-- <p>I'm a Software Engineer specializing in backend development, where I architect robust server-side logic, design scalable APIs, manage complex databases, and ensure optimal application performance. My role involves integrating various services, enhancing data security, and collaborating with front-end teams to deliver seamless user experiences.</p> -->
+      <!-- </div> -->
+
+      <div id="about-me" class="content">
+        <h1>About Me</h1>
+        <p>
+          I'm a Software Engineer specializing in backend development, where I
+          architect robust server-side logic, design scalable APIs, manage
+          complex databases, and ensure optimal application performance. My role
+          involves integrating various services, enhancing data security, and
+          collaborating with front-end teams to deliver seamless user
+          experiences
+        </p>
+      </div>
+
+      <div id="resume" class="content">
+        <h1>Resume</h1>
+        <p>Include your resume/CV details here.</p>
+      </div>
+
+      <div id="projects" class="content">
+        <h1>Projects</h1>
+        <ul>
+          <li>
+            <strong>Hospital Management System</strong>
+            <p>
+              - Designed and developed a Hospital Management System using the
+              MERN stack (MongoDB, Express.js, React, Node.js)
+            </p>
+            <p>
+              - Created role-based access control (Admin, Doctor, Patient) with
+              specific interfaces for each role
+            </p>
+            <p>
+              - Developed a responsive dashboard for admins to manage user
+              information, appointments, and medical records
+            </p>
+            <p>
+              - Containerized the application using Docker for efficient
+              deployment and scalability
+            </p>
+            <p>
+              - Deployed the application on AWS EC2 instances, configuring Nginx
+              for reverse proxy and SSL termination
+            </p>
+            <br />
+          </li>
+          <li>
+            <strong> Real-Time Collaborative Code Editor </strong>
+            <p>
+              - Implemented real-time collaboration features using WebSockets to
+              enable multiple users to edit code simultaneously
+            </p>
+            <p>
+              - Utilized CodeMirror for an intuitive and responsive code editing
+              experience
+            </p>
+            <p>
+              - Integrated user authentication to manage sessions and
+              collaborative permissions
+            </p>
+            <p>
+              - Optimized state management using Redux for efficient data
+              handling and user experience
+            </p>
+            <p>
+              - Containerized the application using Docker for streamlined
+              deployment and scalability
+            </p>
+            <p>
+              - Deployed the application on cloud platforms, ensuring high
+              availability and performance
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="opensource" class="content">
+        <h1>Open Source</h1>
+        <p>List your contributions to open-source projects.</p>
+      </div>
+
+      <div id="work-experience" class="content">
+        <h1>Work Experience</h1>
+        <p>Include your work experience details.</p>
+      </div>
+
+      <div id="education" class="content">
+        <h1>Education</h1>
+        <p>Include your educational background.</p>
+      </div>
+
+      <div id="contact" class="content">
+        <h1>Contact</h1>
+        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      </div>
+    </div>
+  </body>
+</html>
