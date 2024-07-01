@@ -99,7 +99,7 @@ ul {
 }
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 20px; /* Added margin to prevent overlapping */
 }
 
 /* Media Queries */
